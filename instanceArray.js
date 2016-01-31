@@ -15,27 +15,50 @@ var User = function(name, email, pw){
 
   //code here
 
+  var users = [];
+
 
 //Now create and push into your users array 3 separate instances of User using the data from above in that exact order
 
   //code here
 
+var Tyler = new User('Tyler', 'tylermcginnis33@gmail.com', 'iLoveJS');
+var Cahlan = new User('Cahlan', 'cahlan@devmounta.in', 'iLoveHashtags');
+var Lenny = new User('Lenny', 'lenny@theLenster.com', 'iLoveLentilSoup');
+
+users.push(Tyler);
+users.push(Cahlan);
+users.push(Lenny);
+
+
+
+
+
 console.log('Tyler\'s information is ');
 //Console.log all of Tylers information
 
-  //code here
+  //code here/
+console.log(Tyler);
 
 console.log('Lenny\'s information is ');
 //Now console.log all of Lennys information
 
   //code here
+Console.log(Lenny);
 
 
 //Now create another instance of User using your own information and then add that to your users array.
 
   //code here
+var Rob = new User('Rob', 'robstlezin@gmail.com','thisstuffishard!');
+users.push(Rob);
+
 
 console.log('All my users names are ');
 //Now loop through your users Array and console.log every users name. 
 
+
   //code here
+for( var key in users){
+  console.log(users[name]); // still broken find out why
+}
