@@ -44,7 +44,7 @@ console.log('Lenny\'s information is ');
 //Now console.log all of Lennys information
 
   //code here
-Console.log(Lenny);
+console.log(Lenny);
 
 
 //Now create another instance of User using your own information and then add that to your users array.
